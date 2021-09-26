@@ -1,0 +1,28 @@
+body{
+    background-color: #FFF4CC !important;
+    overflow-x: hidden;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'silka semibold';
+    url(./fonts/Silka\ SemiBold.otf);
+}
+
+@font-face {
+    font-family: 'butler';
+    url(./fonts/Butler_Bold.otf);
+}
+
+p{
+    color: #1D1D1B;
+    font-family: "silka semibold";
+}
+
+h1{
+    color: #1D1D1B;
+    font-family: butler;
+}
