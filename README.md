@@ -2,12 +2,12 @@
 Tienda virtual 24/7
 
 Este es un proyecto en desarrollo en el que participan las siguientes personas:
-Juan Galofre (lider),
+Juan Galofre (Lider),
 
-Daniel Castañeda(arquitecto),
+Daniel Castañeda(Arquitecto),
 
-Pilar Castro (desarrollador),
+Pilar Castro (Desarrollador),
 
-Valentina Lopez (scrum master),
+Valentina Lopez (Scrum master),
 
-Jose Ramirez (desarrollador)
+Jose Ramirez (Desarrollador)
