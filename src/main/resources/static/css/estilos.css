@@ -1,0 +1,101 @@
+body,html{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFF4CC !important;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'silka medium';
+    url(./fonts/Silka\ Medium.otf);
+}
+
+@font-face {
+    font-family: 'butler';
+    url(./fonts/Butler_Bold.otf);
+}
+
+.form-box{
+    width: 700px;
+    padding: 40px;
+    text-align: center;
+}
+.form-title{
+    font-family:'butler';
+    font-size: 25px;
+    font-variant: initial;
+
+}
+.form-box input[type = "text"],
+.form-box input[type = "password"],
+.form-box button[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    padding: 14px 10px;
+    border: 2px solid hsla(0, 0%, 50%, 0.63);
+    width: 700px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+
+}
+label{
+    display: block;
+    text-align: left;
+    font-family: "silka medium";
+    font-size: 14px;
+    
+}
+
+.form-box input[type = "text"]:focus,
+.form-box input[type = "password"]:focus{
+    width: 700px;
+    border-color: black;
+}
+
+.form-box button[type = "submit"]{
+    border: 0;
+    background:#F3C30F;
+    cursor: pointer;
+    font-family: "silka medium";
+    margin-top: 50px;
+    width: 730px;
+}
+
+.form-box button:hover{
+    background:#F3C929;
+    box-shadow: rgb(243 201 41) 0px 0px 5px 0px;
+}
+
+.ini{
+    margin-right: 100px;
+}
+
+a{   
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-family: "silka medium";
+    font-size: 14px;
+    margin-bottom: 30px;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
