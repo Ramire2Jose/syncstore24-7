@@ -1,3 +1,4 @@
+@charset "ISO-8859-1";
 body,html{
     overflow-x: hidden;
     background-color: #FFF4CC !important;
@@ -16,15 +17,6 @@ body,html{
 }
 
 
-@font-face {
-    font-family: 'silka medium';
-    url(./fonts/Silka\ Medium.otf);
-}
-
-@font-face {
-    font-family: 'butler';
-    url(./fonts/Butler_Bold.otf);
-}
 
 a>span::before{
     background-color: rgb(249,249,249);
